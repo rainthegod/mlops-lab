@@ -1,1 +1,11 @@
-pip
+torch
+transformers
+datasets
+scikit-learn
+pandas
+numpy
+matplotlib
+fastapi
+uvicorn
+mlflow
+
