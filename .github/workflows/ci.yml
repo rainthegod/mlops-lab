@@ -12,10 +12,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Trigger Airflow DAG on VPS
-        uses: appleboy/ssh-action@v1.2.0
-
-        with:
-          host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USER }}
-          key: ${{ secrets.VPS_SSH_KEY }}
+      - name: Placeholder
+        run: echo "GitHub Actions is ready for future CI/CD."
